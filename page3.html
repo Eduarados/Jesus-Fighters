@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus Fighters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylespag3.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoa.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="page2.html">Personagens</a></li>
+                <li><a href="index.html">Play</a></li>
+                <li><a href="page3.html">Ajude-nos</a></li>
+            </ul>
+        </nav>
+        <div class="barrinha">
+            <a href="#"><img src="img/barras.png" alt="Menu"> </a>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomecompleto">Nome Completo:</label>
+            <input type="text" id="nomecompleto" name="nomecompleto" required>
+
+            <label for="E-Mail">E-Mail</label>
+            <input type="email" id="E-Mail" name="E-Mail" required>
+
+            <label for="tipodesug">Tipo de Sugestão</label>
+            <select id="tipodesug" name="tipodesug" required>
+                <option value="1">Tipo 1</option>
+                <option value="2">Tipo 2</option>
+                <option value="3">Tipo 3</option>
+                <option value="4">Tipo 4</option>
+                <option value="5">Tipo 5</option>
+            </select>
+
+            <label for="Sugestao">Sugestão</label>
+            <input type="text" name="Sugestao" id="Sugestao" required>
+
+            <label for="anexo">Anexos</label>
+            <input type="file" name="anexo" id="anexo">
+
+            <label for="classifica">Nível do problema</label>
+            <select id="classifica" name="classifica" required>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <div class="termos">
+                <label for="termos">Concorda com os <a href="#">Termos e Condições?</a></label>
+                <input type="radio" id="concorda" name="termos" value="Concordo" required>
+                <label for="concorda">Concordo</label>
+                <input type="radio" id="nao_concorda" name="termos" value="Não Concordo" required>
+                <label for="nao_concorda">Não Concordo</label>
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <div class="rodape">
+            <p class="esquerda">Política de Privacidade</p>
+            <img src="img/idades.png" alt="Restrição de Idade" class="restricao">
+            <p class="direita">Termos de serviço</p>
+        </div>
+    </footer>
+</body>
+</html>
